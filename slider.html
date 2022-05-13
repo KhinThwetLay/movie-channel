@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sldier</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <style>
+      body {
+        background-color: orange;
+      }
+      .single-item {
+        width: 400px;
+
+        margin: 0 auto;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="single-item">
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+      <div><img src="./img/rush-hour.jpeg" alt="" /></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".single-item").slick();
+      });
+    </script>
+  </body>
+</html>
